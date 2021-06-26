@@ -2,8 +2,8 @@
     box-sizing: border-box;
 }
 button {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   box-shadow: 4px 5px 6px black;
   margin: 10px;
   font-size: 100px;
@@ -19,12 +19,13 @@ button {
 .center{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    width: 100%;
     max-width: 70%;
     margin: auto;
 }
 p {
-    font-size: 40px;
-    line-height: 70px;
+    font-size: 30px;
+    line-height: 65px;
 }
 a {
   padding: 20px;
