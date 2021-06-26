@@ -19,7 +19,7 @@ const oprimirBtn = (e, i) => {
   posicion[i] = color;
   if (ganador()) {
     parrafo.innerHTML = `
-      Felicitaciones a ganado el jugador con la letra ${text}<br/>
+      Felicitaciones ha ganado el jugador con la letra ${text}<br/>
       Oprime reset para comenzar una nueva partida  `;
   }
 };
