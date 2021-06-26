@@ -1,12 +1,37 @@
+*{
+    box-sizing: border-box;
+}
 button {
-    width: 200px;
-    height: 200px;
+  width: 200px;
+  height: 200px;
+  box-shadow: 4px 5px 6px black;
+  margin: 10px;
+  font-size: 100px;
+  color: greenyellow;
+  background-color: wheat;
 }
 .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 20px;
+  margin: auto;
+}
+.center{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding: 80px;
+    grid-template-columns: 1fr 1fr;
+    max-width: 70%;
     margin: auto;
-    width: 600px;
-    
+}
+p {
+    font-size: 40px;
+    line-height: 70px;
+}
+a {
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: #007bff;
+  color: #fff;
+  display: inline-block;
+  text-decoration: none;
 }
